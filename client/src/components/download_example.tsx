@@ -16,7 +16,7 @@ const DownloadExample = () => {
       filename={"product_upload_example.csv"}
       target="_blank"
     >
-      예시 데이터 다운로드
+      <div className="text-blue">예시 데이터 다운로드</div>
     </CSVLink>
   );
 };
