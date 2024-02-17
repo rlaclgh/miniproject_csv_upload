@@ -1,19 +1,12 @@
 ## 설명
 
-해당 레포는 앞으로 진행할 기능 단위 프로젝트의 boilerplate 입니다.
+csv 파일로 db에 upload 하는 프로젝트입니다.
+
+1. client에서 csv 파일 업로드
+2. server에 csv 파일 저장
+3. spring batch 로 db에 업로드
 
 ## 실행결과
-
-http://127.0.0.1:3000
-
-1. pc
-   <br/>
-   <img src="https://github.com/rlaclgh/boilerplate/assets/46914232/a423e314-5957-4d7c-948c-a738ef5c668a" width="450px" ></img>
-   <br/>
-2. mobile
-   <br/>
-   <img src="https://github.com/rlaclgh/boilerplate/assets/46914232/7287a912-6a54-473c-9ed0-33d243ad9794" width="450px" ></img>
-   <br/>
 
 ## 실행방법
 

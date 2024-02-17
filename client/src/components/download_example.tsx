@@ -1,13 +1,13 @@
 "use client";
 import { CSVLink } from "react-csv";
 
-const csvData = [
-  ["name", "nameEng", "description"],
-  ["제품1", "product1", "제품1 설명"],
-  ["제품2", "product2", "제품2 설명"],
-  ["제품3", "product3", "제품3 설명"],
-  ["제품4", "product4", "제품4 설명"],
-];
+const productsArray = Array.from({ length: 1000 }, (_, i) => [
+  `제품${i + 1}`,
+  `product${i + 1}`,
+  `제품${i + 1} 설명`,
+]);
+
+const csvData = [["name", "nameEng", "description"], ...productsArray];
 
 const DownloadExample = () => {
   return (
